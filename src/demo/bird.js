@@ -27,8 +27,8 @@ const parrot =setupModel(parrotData);
 const flamingo =setupModel(flamingoData);
 const stork =setupModel(storkData);
 
-parrot.position.set(5,3,0)
+parrot.position.set(5,2,-200)
 flamingo.position.set(80,60,-200)
-stork.position.set(-80,50,-200)
+stork.position.set(-40,50,-200)
 
 export default [parrot,flamingo,stork];
